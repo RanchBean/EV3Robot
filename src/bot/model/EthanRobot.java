@@ -29,7 +29,7 @@ public class EthanRobot
 		LCD.drawString(botMessage, xPosition, yPosition);
 		Delay.msDelay(waitTime);
 		
-		EthanRobot.driveRoom();
+		
 	}
 	private void displayMessage(String message)
 	{

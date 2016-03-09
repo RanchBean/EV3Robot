@@ -30,7 +30,8 @@ public class EthanRobot
 		this.waitTime = 4000;
 		
 		distanceSensor = new EV3UltrasonicSensor(LocalEV3.get().getPort("S1"));
-		ultrasonicSensor
+		ultrasonicSamples = new float[distanceSensor.sampleSize()];
+		
 		setupPilot();
 		
 	}
